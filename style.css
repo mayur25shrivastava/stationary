@@ -78,11 +78,12 @@ html{
     padding: 3px 200px;
     justify-content: center;    
     align-items: center;
+    background-image: url("stationary3.jpg");
 }
 
 #home::before{    
     content: " ";
-    background-image: url('../stationary3.jpg');
+    /* background-image: url('../stationary3.jpg'); */
     position: absolute;
     top: 0px;     /* to fit navbar from top imp */
     left: 0px;
@@ -139,12 +140,14 @@ html{
 
     height: 344px;
 
+    background: url("background2.jpg");
+
 }
 
 #client-section::before{
     content: "";
     position: absolute;
-    background: url('../background2.jpg');
+    /* background: url('../background2.jpg'); */
     width: 100%;
     height: 100%;
     z-index: -1;
@@ -154,6 +157,7 @@ html{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 #client-item{
@@ -170,11 +174,14 @@ html{
 #contact::before{
     content: "";
     position: absolute;
-    background: url('../office.jpg');
+    /* background: url('../office.jpg'); */
     width: 100%;
     height: 100%;
     z-index: -1;
     opacity: 0.7;
+}
+#contact{
+    background-image: url("office.jpg");
 }
 #contact-box{
     display: flex;
